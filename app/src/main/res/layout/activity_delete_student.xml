@@ -1,0 +1,131 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/clg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/clg"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00f"
+            android:text="Delete student data "
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fcfcfd"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="enter student rollnumber"
+            android:id="@+id/et_search"
+            android:layout_marginTop="40dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:onClick="search"
+            android:textColor="#00f"
+            android:background="@drawable/button"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="@string/hint_name"
+            android:id="@+id/et_stname"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="mobile number"
+            android:id="@+id/et_mobile"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="gmail id"
+            android:id="@+id/et_gmail"
+            android:background="@drawable/button"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="department"
+            android:id="@+id/et_stdep"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="semester"
+            android:id="@+id/et_sem"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint=" year"
+            android:id="@+id/et_year"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="college name"
+            android:id="@+id/et_college"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint=" fees "
+            android:id="@+id/et_fee"
+
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Delete Record"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:onClick="delete"
+            android:textColor="#00f"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:onClick="back"
+            android:textColor="#00f"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+</ScrollView>

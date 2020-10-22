@@ -1,0 +1,109 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/clg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/clg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        android:text="Search student data "
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#fcfcfd"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="enter student rollnumber"
+        android:id="@+id/et_search"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="search"
+        android:textColor="#00f"
+        android:background="@drawable/button"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_stname"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_department"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_sem"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_year"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="College : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_college"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No. : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_mobile"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gmail ID : "
+        android:textColor="#00f"
+        android:textSize="20dp"
+        android:id="@+id/tv_gmail"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:onClick="back"
+        android:textColor="#00f"
+        android:background="@drawable/button"/>
+
+</LinearLayout>
+</ScrollView>

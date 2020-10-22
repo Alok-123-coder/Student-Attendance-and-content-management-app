@@ -1,0 +1,95 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:background="@drawable/clg"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:id="@+id/text"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="30dp"
+            android:textColor="#0B6F65"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="enter name"
+            android:id="@+id/et_tname"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="enter mobile number"
+            android:id="@+id/et_tmobile"
+            android:inputType="phone"
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="enter gmail id"
+            android:id="@+id/et_tgmail"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint="enter password"
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+
+            android:background="@drawable/button"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:hint=" confirm password"
+            android:inputType="textPassword"
+            android:id="@+id/et_cpassword"
+
+            android:background="@drawable/button"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="tsignup"
+            android:textColor="#00f"
+            android:layout_marginTop="25dp"
+            android:text="Sign-Up"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:background="@drawable/button"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:onClick="tsignin"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#00f"
+            android:background="@drawable/button"
+            android:text="Sign-In"
+            android:layout_gravity="center"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+</ScrollView>

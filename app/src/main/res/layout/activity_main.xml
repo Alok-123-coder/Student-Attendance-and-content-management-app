@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg"
+    tools:context=".MainActivity">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_teacher"
+            android:layout_margin="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image_teacher"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/teacher">
+                </ImageView>
+                <TextView
+                    android:id="@+id/teacher"
+                    android:layout_below="@+id/image_teacher"
+                    android:text="Teacher Panel"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#0E0E0D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_Student"
+            android:layout_below="@+id/cardview_teacher"
+            android:layout_margin="20dp"
+            app:cardElevation="15dp"
+            app:cardCornerRadius="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/image_student"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/studentnew"
+                    android:layout_marginLeft="100dp"></ImageView>
+
+
+                <TextView
+                    android:id="@+id/student"
+                    android:layout_below="@+id/image_student"
+                    android:text="Student Panel"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#0E0E0D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></TextView>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+</RelativeLayout>

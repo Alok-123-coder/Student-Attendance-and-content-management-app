@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Book1">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonChoose"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="Select" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:hint="Name For Book in PDF"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch Book"
+        android:textAllCaps="false"
+        android:id="@+id/buttonFetchPdf"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="pdfbook"
+        android:text="Open-Book"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:textColor="#00f"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listView"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentattendence">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/st"
+        android:label="StudentApp"
+        android:roundIcon="@drawable/st"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Book2"></activity>
+        <activity android:name=".TeacherSignUp" />
+        <activity android:name=".CalendarDemo" />
+        <activity android:name=".EditActivity" />
+        <activity android:name=".MainNotes" />
+        <activity android:name=".Book1" />
+        <activity android:name=".StudentMenu" />
+        <activity android:name=".UpdateStudent" />
+        <activity android:name=".DeleteStudent" />
+        <activity android:name=".SearchStudent" />
+        <activity android:name=".StudentReg" />
+        <activity android:name=".Student_name_Teacher" />
+        <activity android:name=".TeacherHome" />
+        <activity android:name=".Home" />
+        <activity android:name=".Student_login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Teacher_login" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
